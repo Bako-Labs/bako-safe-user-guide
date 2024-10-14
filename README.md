@@ -72,6 +72,8 @@ If this option is not available, click on Settings > App Settings > Network > + 
 
 ## User Interface
 
+[![Watch the video](https://img.youtube.com/vi/GwOCEPeBCO4/maxresdefault.jpg)](https://www.youtube.com/watch?v=GwOCEPeBCO4)
+
 ![Screenshot 2024-09-25 at 21.23.44.png](.github/assets/user-guide-step-4.png)
 
 **Account Info**
@@ -83,7 +85,7 @@ your Passkey.
 
 > [!NOTE]
 > If using Passkey, the address shown here is the User Account address attached to the Passkey. It is different than
-> your Personal Vault Address. Please, do NOT send assets to this address.
+> your Personal Vault Address. Please, DO NOT send assets to this address.
 
 **Navigation Menu**
 
@@ -122,8 +124,7 @@ You can create as many vaults as you like.
    ![Screenshot 2024-09-26 at 12.45.36.png](.github/assets/user-guide-step-9.png)
 
 > [!WARNING]
-> Bako Safe vaults (incl. the Personal Vault) cannot be used as signers of other vaults.
-
+> Please ensure that all signer addresses are valid and accessible wallet addresses on the Fuel Network. Addresses from other Bako Safe Vaults and wallets from other networks cannot be used as signers.
 
 4. Set the signature threshold.
 
@@ -133,6 +134,9 @@ You can create as many vaults as you like.
 > Choose wisely, as this cannot be changed further, yet.
 
 5. Click on `+ Create Vault`
+
+> [!WARNING]
+> Before initiating high-value deposits, first conduct smaller deposits and transactions to confirm that all signers have access to their wallets and that the vault’s funds can be transferred securely.
 
 ## Working With Your Vault
 
@@ -144,6 +148,8 @@ can transfer assets to this address using any method on the Fuel Ignition mainne
 ![Screenshot 2024-09-26 at 12.48.31.png](.github/assets/user-guide-step-10.png)
 
 ### **Adding Assets via Bridge**
+
+[![Watch the video](https://img.youtube.com/vi/1SL7jGOgOnU/maxresdefault.jpg)](https://www.youtube.com/watch?v=1SL7jGOgOnU)
 
 Using the vault address you can add assets directly
 via [Fuel Bridge.](https://app-mainnet.fuel.network/bridge?from=eth&to=fuel)
